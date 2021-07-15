@@ -1,0 +1,575 @@
+/*Index*/
+
+/*Corpo*/
+body, html {
+    font-size: 20px;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f4f7;
+}
+
+h1{
+    text-align: center;
+    font-size: 55px;
+    padding: 30px 30px;
+}
+
+/*Cabeçalho*/
+header {
+    background-color: #ac0917;
+    padding-top: 15px;
+}
+
+.containerHeader {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.containerChildLogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+}
+
+.containerChildNav {
+    max-width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex: 1;
+}
+
+.menu ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    flex: 1;
+}
+
+.menu ul li {display: inline;}
+
+.menu ul li a {
+    padding: 12px 16px;
+    margin: 2px;
+    display: inline-block;
+
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: #000;
+    background-color: #fff;
+    border-bottom: 0.10em solid #000;
+}
+
+@media only screen and (max-width: 600px) {
+    .containerHeader {
+        flex-direction: column;
+    }
+}
+
+/*Conteúdo*/
+.section_inicio {
+    background-image: url('image/pizza_fundo_2.jpg');
+    color: #fff;
+    margin-bottom: 0px;
+    padding: 0px 0px 300px 25px;
+}
+
+#texto_principal {
+    font-size: 40px;
+    padding-bottom: 45px;
+    padding-top: 45px;
+}
+
+#texto_promocao {
+    padding-bottom: 19px;
+    padding-top: 19px;
+    font-size: 20px;
+    text-indent: 10px;
+}
+
+.section_inicio a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 23px;
+    background-color: #0bb10f;
+    padding: 20px 15px 20px 15px;
+    border: 2px solid #000;
+    border-radius: 25px;
+}
+
+.section_inicio a:hover{
+    background-color: #FBE64A;
+    color: #000;
+    box-shadow: 10px 10px 13px #000;
+}
+
+/*Conteúdo Parte 2*/
+.section2{
+    background-color: #f2f4f7;
+   
+}
+.section2 p{
+    text-align: justify;
+    padding: 20px;
+    text-indent: 40px;
+}
+
+/*Formulario para se inscrever*/
+.formulario1 {
+    text-align: center;
+    padding-bottom: 40px;
+    font-weight: 100;
+}
+
+.campoNomeEmail{
+    width: 350px;
+    height: 40px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    padding: 20px;
+    margin: 8px;
+    outline: none;
+}
+.campoNomeEmail:focus {
+    border: 2px solid #e91b2c;
+}
+
+.botaoInscreva {
+    margin-top: 22px;
+    background-color: #37f263;
+    border: 2px solid #000;
+    border-radius: 10px;
+    width: 230px;
+    height: 55px;
+    font-size: 26px;
+    cursor: pointer;
+}
+
+.botaoInscreva:hover {
+    color:#fff;
+}
+
+.textoInscrevaSe {
+    color: #6c7084;
+    text-align: center;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.textoInscrevaSe2 {
+    text-align: center;
+    margin-top: 25px;
+    font-style: oblique;
+}
+
+/*Rodapé*/
+footer {
+    background-color: #bec6c6;
+}
+
+.colunasRodape {
+    float: left;
+    width: 50%;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.colunasRodapeRow:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .colunasRodape{
+        width: 100%;
+    }
+}
+
+.fieldsetPersonalizado {
+    border: 1px solid #000;
+    border-radius: 15px;
+}
+
+.unidades legend {
+    text-align: center;
+}
+
+.unidadesTexto{
+    margin-left: 30px;
+    color: #000;
+}
+
+.unidadesTexto a{
+    color:#000;
+    text-decoration: none;
+}
+
+.unidadesTexto a:hover{
+    color:#000;
+    text-decoration: underline;
+}
+
+.verMapa{
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+
+/*Topo*/
+.DeVoltaAoTopo {
+    background-color: #ac0917;
+    color: #000;
+    font-size: 22px;
+    text-align: center;
+    padding: 1px;
+    padding-top: 15px;
+}
+
+.DeVoltaAoTopo a{
+    color: #000;
+    text-decoration: none;
+}
+
+.DeVoltaAoTopo a:hover{
+    color:#000;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/*Unidades*/
+
+/*Conteúdo*/
+.articleUnidade {
+    background-color: #f2f4f7;
+
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid #c1ccc8;
+}
+
+.caixaIframeMap {
+    margin: 20%;
+}
+
+.flex-container h2{
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.flex-item-left {
+    background-color: #f2f4f7;
+    padding: 10px;
+    margin-left: 20px;
+    flex: 50%;
+    border-right: 2px solid #c1ccc8;
+}
+.flex-item-left ul{
+    list-style-type: none;
+}
+
+.flex-item-right {
+    background-color: #f2f4f7;
+    padding: 10px;
+    flex: 50%;
+    border-right: 2px solid #c1ccc8;
+}
+
+  
+/* Responsive */
+@media (max-width: 800px) {
+    .flex-container {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 700px) {
+    .caixaIframeMap {
+        margin: 5%;
+    }
+}
+
+/*Pedir Pizzar*/
+.articlePizza {
+    background-color: #f2f4f7;
+}
+
+/*Formulario*/
+.formularioPedirPizza {margin-left: 45px;}
+
+.formularioPedirPizza select{margin: 10px 0px 25px 0px;}
+
+.formularioPedirPizza label{
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.flex-Formulario {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-left {flex: 50%;}
+
+.flex-right {flex: 50%;}
+
+.campos {
+    padding-bottom: 20px;
+    padding-top: 40px;
+}
+
+.campos input{
+    border: 1px solid #000;
+    border-radius: 10px;
+    height: 45px;
+    outline: none;
+    margin-bottom: 25px;
+    padding: 20px;
+}
+
+.campos input:focus{border: 2px solid #e91b2c;}
+
+.campoNome {width: 370px;}
+
+.campoTelefone {width: 55%;}
+
+.campoEmail {width: 70%;}
+
+.campoRua {width: 70%;;}
+
+.campoBairro {width: 80%;}
+
+.campoNumero {width: 13%;}
+
+.campoCEP {width: 50%;}
+
+.campoMensagem {
+    width: 300px;
+    height: 100px;
+}
+
+.formularioPedirPizza h2{
+    text-align: center;
+}
+
+.pizzaSabor {
+    width: 60%;
+    height: 45px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+.containerEnviar {
+    max-width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.containerEnviar input[type=text]{
+    height: 50px;
+    padding: 20px;
+    outline: none;
+    margin: 0px 10px 20px 0px;
+    border-radius: 10px;
+    border: 2px solid #000;
+}
+
+.botaoPedir {
+    background-color: #0bb10f;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 10px;
+    height: 50px;
+    width: 175px;
+    margin: 0px 10px 20px 0px;
+    font-size: 19px;
+}
+
+.botaoPedir:hover{
+    background-color: #60da62;
+}
+
+.limparCampos{
+    height: 50px;
+    width: 157px;
+    background-color: transparent;
+    border: 0.13em solid #ff0b0b;
+    border-radius: 15px;
+    font-size: 18px;
+}
+
+.limparCampos:hover{
+    background-color: #ff0b0b;
+    border-color: #000;
+}
+
+/* Responsive */
+@media (max-width: 800px) {
+    .flex-Formulario {
+        flex-direction: column;
+    }
+}
+
+/*Cardápio*/
+
+/*Cartões de pizza*/
+
+.articleCardapio h2{
+    text-align: center;
+    padding-bottom: 25px;
+    padding-top: 50px;
+}
+
+.textoCard {
+    font-size: 17px;
+    text-transform: capitalize;
+    word-spacing: 2px
+}
+
+.nomePizza {
+    font-size: 20px;
+    font-weight: 600;
+    font-style: oblique;
+    letter-spacing: 1px;
+}
+
+/*Bebidas*/
+.containerBebidas {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding-bottom: 40px;
+}
+
+.tabelaBebidas {
+    border: 2px solid #000;
+    background-color: #fff;
+}
+
+.tabelaBebidas tr:nth-child(even) {background-color: #cccbd3;}
+
+.tabelaBebidas th{
+    text-align: center;
+    background-color: #e20d1b;
+    height: 45px;
+    color: white
+}
+.tabelaBebidas th.divisor {border-right: 1px solid #000;}
+
+.tabelaBebidas td{
+    padding: 16px 25px 16px 25px;
+}
+.tabelaBebidas td.divisor {border-right: 1px solid #000;}
+
+/*Promoções*/
+
+.articlePromocoes {background-color: #f2f4f7;}
+
+.containerPromo {
+	max-width: 900px;
+	margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.tabelaPromo {
+    border: 1px solid #000;
+    width: 100%;
+    background-color: #fff;
+}
+
+.tabelaPromo tr{
+    border-top: 1px solid #ced5d2;
+}
+
+.tabelaPromo tr:nth-child(even) {background-color: #dae3e7;}
+
+.tabelaPromo tr:hover {background-color: #8999a5;}
+
+.tabelaPromo th {
+    text-align: center;
+    font-weight: bold;
+    height: 50px;
+    background-color: #0bb10f;
+}
+
+#thPromo {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.tabelaPromo td {
+    text-align: left;
+    height: 60px;
+    vertical-align: middle;
+    padding-left: 20px;
+    border-left: 1px solid #000;
+}
+
+.containerButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.containerButton a {
+    width: 240px;
+    height: 62px;
+    border: 2px solid #000;
+    border-radius: 20px;
+    background-color: #3aed08;
+    cursor: pointer;
+    color: #000;
+    text-decoration: none;
+    font-weight: 400;
+    padding:  15px 70px 15px 70px;
+}
+
+.containerButton a:hover{
+    color: #fff;
+    font-weight: 100;
+    text-decoration: underline;
+    box-shadow: 0 0 25px #000;
+}
+
+/*Nossa História*/
+.containerHist{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.ItemTextHist {
+    max-width: 500px;
+    font-size: 17px;
+    margin-top: 150px;
+}
+
+.ItemTextHist p {
+    text-align: justify;
+}
+
+.ItemImgHist {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.ItemImgHist img{
+    width: 100%;
+    height: 100%;
+} 
